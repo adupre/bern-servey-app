@@ -1,6 +1,7 @@
 # Pre-requisites
 
 Install Vue.js CLI
+
 Install Amplify CLI
 
 
