@@ -1,0 +1,26 @@
+type SurveyResponse @model {
+  id: ID!
+
+  """
+  Overall satisfaction
+  """
+  q1Response: Int!
+  """
+  Talk 1: Simon Frei
+  """
+  q2Response: Int!
+  """
+  Talk 2: Daniel Loch & Reto Wehrli
+  """
+  q3Response: Int!
+  """
+  Talk 3: Anthony Dupre
+  """
+  q4Response: Int!
+  """
+  Topic suggestions
+  """
+  q5Response: String
+  q6Response: Boolean!
+  comments: String
+}
